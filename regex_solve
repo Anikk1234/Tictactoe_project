@@ -1,0 +1,29 @@
+(1) / ---->>Forward Searching.
+(2) ? ---->>backward Searching.
+(3) . ---->>any character.
+(4) \<word\> ---->>searching exact word.
+(5) \(pattern\) ---->>searching patterns.
+(6) [] ---->>character class. means [a-zA-Z]-->>All character
+                                   [^a-zA-Z]-->>non character
+(7) \d-->int value
+    \x-->hex value
+    \o-->octal value
+ 
+     /D,/O,/X ---->>non-version
+(8) \l,\u---->>lowercase and uppercase
+    \L,\U---->>non-version
+(9) \s---->>white space character
+    \S---->>non-version
+(10) /[0-9]\{3}---->>numbers from 0 to 9 and toughter with 3 numbers.
+     /[0-9]\{2,4} ---->>max 4 num and min 2 numbers
+(11) *---->> ig /she* it will select sh and she also one or more time 
+(12) +---->> /she\+ it will select one or more time she
+(13) ?---->>/she\? it will select sh and she also  one or more time 
+(14) ^,& ---->>the word/latter beginning of the line and ending of the line.
+(15) \n ---->>backregerencing ig: \1, \2 
+      ig:%s/\(shell\)/Anik\1/
+      it will search the pattern shell and print Anik before shell
+(17) \s_---->>white space with newline
+(18) g ---->>global command
+       ig: g/^$/ d -->>delates all blank line on buffer
+      
