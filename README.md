@@ -96,4 +96,4 @@ Code
 
 ---
 
-*Note: This project was developed as part of coursework for the 2nd semester.*
+*Note: This project was developed as part of coursework for the 2nd semester OOP(JAVA) Course.*
