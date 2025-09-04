@@ -1,4 +1,6 @@
 # TicTacToe Game
+![Screenshot of the application](https://github.com/Anikk1234/Tictactoe_project/blob/main/tictactoe/Screenshot%202025-09-04%20170755.png)  
+
 Author: Anik Kirtania
 
 ## Overview
